@@ -1,4 +1,6 @@
-![workflow](https://github.com/40545647/sem/actions/workflows/master.yml/badge.svg)
+![workflow](https://github.com/40545647/sem/actions/workflows/master.yml/badge.svg) <br/>
+[![LICENSE](https://img.shields.io/github/license/40545647/sem.svg?style=flat-square)](https://github.com/<github-username>/sem/blob/master/LICENSE) <br/>
+[![Releases](https://img.shields.io/github/release/40545647/sem/all.svg?style=flat-square)](https://github.com/<github-username>/sem/releases)
 
 # SeMethods
 
