@@ -9,10 +9,8 @@ public class App
 {
     public static void main(String[] args)
     {
-        // Connect to MongoDB on local system - we're using port 27000
-        // Changed Localhost to 192.168.99.100 since Docker Toolbox is being used as newer versions of Docker do not work with Windows 8.1
-        // Docker Toolbox uses a default host of 192.168.99.100 which cannot be changed
-        MongoClient mongoClient = new MongoClient("192.168.99.100", 27000);
+        // Connect to MongoDB
+        MongoClient mongoClient = new MongoClient("mongo-dbserver");
         // Get a database - will create when we use it
         MongoDatabase database = mongoClient.getDatabase("mydb");
         // Get a collection from the database
